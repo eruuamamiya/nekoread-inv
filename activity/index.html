@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NekoRead</title>
+</head>
+<body>
+  <main class="app">
+    <header>
+      <span class="logo">Neko<span>Read</span></span>
+      <span id="me" class="me">Menghubungkan…</span>
+    </header>
+
+    <section class="card">
+      <div class="who-row"><div id="who" class="who"></div><span id="count" class="muted"></span></div>
+    </section>
+
+    <section class="card">
+      <h2>Mulai membaca</h2>
+      <label>Judul <input id="title" value="One Piece" autocomplete="off" /></label>
+      <label>Chapter <input id="chapter" type="number" min="1" value="930" /></label>
+      <button id="go" class="btn" disabled>Mulai baca</button>
+      <p id="status" class="muted">Status “Sedang bermain NekoRead” sudah otomatis muncul. Tombol ini menambah detail judul dan chapter (muncul izin sekali saja).</p>
+    </section>
+
+    <p id="error" class="error" role="alert"></p>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
