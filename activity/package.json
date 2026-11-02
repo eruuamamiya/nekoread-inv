@@ -1,0 +1,16 @@
+{
+  "name": "nekoread-activity",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --host"
+  },
+  "dependencies": {
+    "@discord/embedded-app-sdk": "^1.9.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
